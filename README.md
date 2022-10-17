@@ -13,9 +13,9 @@ The libraries used are:
 
 ## Instructions
 To run the project, open the terminal and launch it as:
-``` $ python main.py readsA.fasta readsB.fasta ``` where:
-* **readsA.fasta** is the Wild strain
-* **readsB.fasta** is the Variant strain
+``` $ python main.py reads_v.fasta reads_w.fasta ``` where:
+* **reads_v.fasta** is the variant strain
+* **reads_w.fasta** is the wild strain
 
 The fully procedure of the project is well explained in the [Report]()
 
