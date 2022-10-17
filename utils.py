@@ -1,6 +1,5 @@
 import jellyfish
 import numpy as np
-import Bio.SeqIO
 
 
 def count_kmers(seq, k, data):
