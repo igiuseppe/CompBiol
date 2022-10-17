@@ -80,3 +80,9 @@ def calc_dist(seq1, seq2):
             j += 1
         i += 1
     return matrix
+
+def print_results(ind,seq1,seq2):
+    for i in ind:
+    print(i[0],a[i[0]])
+    print(i[1],b[i[1]])
+    
