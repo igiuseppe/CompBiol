@@ -1,6 +1,7 @@
 import utils
 import argparse
 Import numpy as np
+import Bio.SeqIO
 
 # reading wild genome file, variant genome file and setted parameters from the terminal
 parser = argparse.ArgumentParser()
