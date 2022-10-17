@@ -86,7 +86,7 @@ def print_results(ind,seq1,seq2):
     i=0
     while i<l:
         index=(ind[0][i],ind[1][i])
-        print(seq1(ind[0][i])
-        print(seq2(ind[1][i])
+        print(a[ind[0][i]])
+        print(b[ind[1][i]])
         i+=1
     
