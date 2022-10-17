@@ -13,11 +13,9 @@ The libraries used are:
 
 ## Instructions
 To run the project, open the terminal and launch it as:
-``` $ python main.py readsA.fasta readsB.fasta k f_min``` where:
+``` $ python main.py readsA.fasta readsB.fasta ``` where:
 * **readsA.fasta** is the Wild strain
 * **readsB.fasta** is the Variant strain
-* **k** is the length of k-mers
-* **f_min** is the minimum frequency assumed without errors
 
 The fully procedure of the project is well explained in the [Report]()
 
