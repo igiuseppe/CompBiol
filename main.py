@@ -19,8 +19,8 @@ f_min=args.f_min
 counts_v=utils.counts_all(records_v,k)
 counts_w=utils.counts_all(records_w,k)
 
-utils.clear_dict(counts_v,f_min)
-utils.clear_dict(counts_w,f_min)
+counts_v=utils.clear_dict(counts_v,f_min)
+counts_w=utils.clear_dict(counts_w,f_min)
 
 utils.delete_copies(counts_v, counts_w)
 
