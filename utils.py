@@ -23,6 +23,9 @@ def count_all(gen, k):
     print(f'Process completed: {len(data)} {k}-mers found')
     return data
 
+def clear_dict(dic,f):
+    # Clear the dictionaries eliminating k-mers with less than f_min occurrencies
+    return {key:val for key, val in dic.items() if val >= f}
 
 def delete_copies(dict1, dict2):
     # Deletes element that are common in both dictionary
