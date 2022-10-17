@@ -89,6 +89,4 @@ def print_results(ind,seq1,seq2):
         print(seq1(ind[0][i])
         print(seq2(ind[1][i])
         i+=1
-    print(i[0],a[i[0]])
-    print(i[1],b[i[1]])
     
